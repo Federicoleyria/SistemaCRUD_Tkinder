@@ -4,9 +4,9 @@ import mysql.connector
 class Conexion:
     
     def __init__(self):
-        # with open("C:/Users/Windows/Downloads/password.txt",'r') as f:
-        #     pwd= f.read()
-        pwd = 'valeria11'
+        with open("C:/Users/Windows/Downloads/password.txt",'r') as f:
+            pwd= f.read()
+       
         try:
             self.con = mysql.connector.connect(
                 host='localhost',
