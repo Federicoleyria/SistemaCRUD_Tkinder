@@ -2,6 +2,9 @@
 
 Este proyecto es una aplicación de escritorio diseñada para facilitar la gestión de empleados en una organización. La aplicación está desarrollada en Python, utilizando Tkinter para la interfaz gráfica de usuario y MySQL como sistema de gestión de bases de datos para almacenar y administrar la información de los empleados.
 
+### Interfaz visual
+![](https://github.com/Federicoleyria/SistemaCRUD_Tkinder/blob/main/imagenes_proyecto/login.PNG)![](https://github.com/Federicoleyria/SistemaCRUD_Tkinder/blob/main/imagenes_proyecto/sistema.PNG)
+
 ### Características
 Login de usuario: Verifica el acceso a la aplicación.
 CRUD de empleados: Permite crear, leer, actualizar y eliminar registros de empleados.
@@ -10,20 +13,25 @@ Persistencia de datos: Utiliza MySQL para almacenar y gestionar la información 
 ### Requisitos
 Python 3.x
 Tkinter
-### MySQL
+MySQL
 mysql-connector-python
-Instalación
+### Instalación
 Clona el repositorio:
 
-bash
+### bash
 Copiar código
+
 git clone https://github.com/tu_usuario/tu_repositorio.git
+
 cd tu_repositorio
+
 Instala las dependencias:
 
 bash
 Copiar código
+
 pip install mysql-connector-python
+
 Configura la base de datos MySQL:
 
 Crea una base de datos llamada crud.
@@ -53,10 +61,11 @@ self.con = mysql.connector.connect(
 ### Ejecución
 Para ejecutar la aplicación, simplemente ejecuta el archivo main.py:
 
-### bash
+bash
 Copiar código
 python main.py
-Estructura del Proyecto
+
+### Estructura del Proyecto
 main.py: Archivo principal que contiene la interfaz de usuario y la lógica de la aplicación.
 empleado.py: Contiene la clase Empleado con métodos para interactuar con la base de datos.
 conexion.py: Maneja la conexión a la base de datos MySQL.
